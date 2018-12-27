@@ -1,0 +1,5 @@
+demo.hello:
+  title: Hello
+  description: 'This is a description'
+  parent: system.admin_structure
+  route_name: demo.hello

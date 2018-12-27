@@ -1,0 +1,9 @@
+name: My Demo
+description: This is a demo module for d8
+package: mydemo
+core: 8.x
+version: 1.0
+type: module
+
+dependencies:
+  - devel

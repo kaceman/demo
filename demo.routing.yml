@@ -1,0 +1,15 @@
+demo.hello:
+  path: '/demo/hello'
+  defaults:
+    _controller: '\Drupal\demo\Controller\DemoController::hello'
+    _title: 'Hello Title'
+  requirements:
+    _permission: 'access content'
+
+demo.contact_form:
+  path: '/demo/contact'
+  defaults:
+    _form: '\Drupal\demo\Form\ContactForm'
+    _title: 'Contact Form'
+  requirements:
+    _permission: 'access content'
